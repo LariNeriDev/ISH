@@ -2,6 +2,7 @@ FROM python:3.9-slim
 
 COPY ./src /app/src
 COPY ./requirements.txt /app
+COPY . .
 
 WORKDIR /app
 
