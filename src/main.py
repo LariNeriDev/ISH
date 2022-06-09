@@ -1,5 +1,5 @@
 from typing import Union
-from api_music.utils import TemperatureAPI, TrackRecommendationAPI
+from src.utils import TemperatureAPI, TrackRecommendationAPI
 from fastapi import FastAPI
 
 app = FastAPI()

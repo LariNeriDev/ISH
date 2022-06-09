@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 
-COPY ./api_music /app/api_music
+COPY ./src /app/src
 COPY ./requirements.txt /app
 
 WORKDIR /app
